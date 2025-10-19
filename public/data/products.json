@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Alimento Balanceado para Gatos 5kg",
+    "price": 24999.99,
+    "category": "food",
+    "petType": "cat",
+    "imageUrl": "/images/alimento-balanceado-gato.jpg",
+    "description": "Alimento balanceado premium para gatos adultos, con nutrientes esenciales para su salud. Bolsa de 5 kg, ideal para una dieta completa y equilibrada."
+  },
+  {
+    "id": 2,
+    "name": "Alimento Balanceado para Perros 3kg",
+    "price": 17999.99,
+    "category": "food",
+    "petType": "dog",
+    "imageUrl": "/images/alimento-balanceado-perro.jpg",
+    "description": "Alimento completo para perros de razas medianas, rico en proteínas y vitaminas. Bolsa de 3 kg, perfecto para el cuidado diario."
+  },
+  {
+    "id": 3,
+    "name": "Alimento Balanceado Multiespecie 10kg",
+    "price": 39999.99,
+    "category": "food",
+    "petType": "both",
+    "imageUrl": "/images/alimento-balanceado.jpg",
+    "description": "Fórmula balanceada para perros y gatos, con ingredientes de alta calidad. Bolsa de 10 kg, práctica para hogares con múltiples mascotas."
+  },
+  {
+    "id": 4,
+    "name": "Cama Cucha Acolchada para Perro",
+    "price": 34999.99,
+    "category": "furniture",
+    "petType": "dog",
+    "imageUrl": "/images/cama-cucha-perro.webp",
+    "description": "Cucha acolchada con base antideslizante y funda lavable, ideal para perros medianos. Talle M, diseño cómodo y duradero."
+  },
+  {
+    "id": 5,
+    "name": "Casa Plástica para Perro",
+    "price": 64999.99,
+    "category": "furniture",
+    "petType": "dog",
+    "imageUrl": "/images/casa-perro.webp",
+    "description": "Casa plástica resistente al agua y al sol, perfecta para exteriores. Talle L, fácil de armar y limpiar."
+  },
+  {
+    "id": 6,
+    "name": "Cucha de Madera para Perro",
+    "price": 89999.99,
+    "category": "furniture",
+    "petType": "dog",
+    "imageUrl": "/images/cucha-madera-perro.webp",
+    "description": "Cucha de madera tratada para exteriores, robusta y elegante. Talle XL, ideal para perros grandes y climas exigentes."
+  },
+  {
+    "id": 7,
+    "name": "Pack de Juguetes para Perro (5u)",
+    "price": 24999.99,
+    "category": "toys",
+    "petType": "dog",
+    "imageUrl": "/images/juguetes-perro.jpg",
+    "description": "Set de 5 juguetes con cuerdas, pelotas y mordillos, diseñados para el entretenimiento y cuidado dental de tu perro."
+  },
+  {
+    "id": 8,
+    "name": "Rascador Simple para Gato",
+    "price": 19999.99,
+    "category": "furniture",
+    "petType": "cat",
+    "imageUrl": "/images/rascador-gato.jpg",
+    "description": "Rascador compacto con sisal natural y base antideslizante, perfecto para el cuidado de las uñas de tu gato."
+  },
+  {
+    "id": 9,
+    "name": "Torre Rascador para Gato de 3 Niveles",
+    "price": 54999.99,
+    "category": "furniture",
+    "petType": "cat",
+    "imageUrl": "/images/torre-rascador-gato.jpg",
+    "description": "Torre rascadora de 3 niveles con cuevas, plataformas y juguetes colgantes. Altura 120 cm, ideal para gatos activos."
+  }
+]
