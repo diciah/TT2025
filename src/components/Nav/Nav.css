@@ -22,7 +22,12 @@
 .brand a {
   font-weight: 700;
   font-size: 1.25rem;
-  color: inherit;
+  color: var(--primary);
+  transition: color 0.2s;
+}
+
+.brand a:hover {
+  color: #818cf8;
 }
 
 .menu {
@@ -35,14 +40,21 @@
 }
 
 .menu a {
-  color: inherit;
+  color: var(--text);
   text-decoration: none;
   padding: 0.5rem 0.75rem;
   border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .menu a:hover {
-  background: #d1fae5;
+  background: var(--primary);
+  color: white;
+  transform: translateY(-2px);
 }
 
 .cart {

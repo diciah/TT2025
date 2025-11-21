@@ -1,0 +1,93 @@
+.login-container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.login-container form {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 3rem 2.5rem;
+  max-width: 450px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.login-container h2 {
+  color: var(--text);
+  margin: 0 0 2rem 0;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.login-container form > div {
+  margin-bottom: 1.5rem;
+}
+
+.login-container label {
+  display: block;
+  color: var(--text);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  background: var(--muted-surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.login-container input:focus {
+  outline: none;
+  border-color: var(--primary);
+  background: var(--surface);
+}
+
+.login-container input::placeholder {
+  color: var(--muted-text);
+  opacity: 0.7;
+}
+
+.login-container button[type="submit"] {
+  width: 100%;
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  margin-top: 1rem;
+}
+
+.login-container button[type="submit"]:hover {
+  background: #5558e3;
+  transform: translateY(-1px);
+}
+
+.login-container button[type="submit"]:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 640px) {
+  .login-container form {
+    padding: 2rem 1.5rem;
+  }
+
+  .login-container h2 {
+    font-size: 1.5rem;
+  }
+}

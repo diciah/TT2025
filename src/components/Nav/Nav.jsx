@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaShoppingCart, FaHome, FaDog, FaCat } from "react-icons/fa";
 import { useCartContext } from "../../context/CartContext/useCartContext";
 import "./Nav.css";
 
@@ -14,16 +15,16 @@ export const Nav = () => {
         </div>
         <ul className="menu">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/"><FaHome /> Home</Link>
           </li>
           <li>
-            <Link to="/category/gatos">Gatos</Link>
+            <Link to="/category/gatos"><FaCat /> Gatos</Link>
           </li>
           <li>
-            <Link to="/category/perros">Perros</Link>
+            <Link to="/category/perros"><FaDog /> Perros</Link>
           </li>
           <li className="cart">
-            <Link to="#">Carrito</Link>
+            <Link to="/carrito"><FaShoppingCart /> Carrito</Link>
             {getTotalItems() > 0 && (
               <span className="in-cart">{getTotalItems()}</span>
             )}
